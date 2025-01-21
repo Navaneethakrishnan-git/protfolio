@@ -38,12 +38,12 @@ function About() {
                     </div>
                     <hr />
                     <div className="about-acheivement">
-                        <h1>COLLBORATION</h1>
+                        <h1>5</h1>
                         <p>Collaborate with UX designers and back-end develpoers</p>
                     </div>
                     <hr />
                     <div className="about-acheivement">
-                        <h1>VERSION CONTROL</h1>
+                        <h1>git</h1>
                         <p>Proficiency with Git commands such as branching, merging, and conflict resulution </p>
                     </div>
                     

@@ -9,9 +9,7 @@ function Home() {
         <h1><span>I'm Navaneethakrishnan,</span> frontend developer based in India.</h1>
         <p>I am frontend devloper from Coimbatore,</p>
         <div className="hero-action">
-            <div className="hero-connect"> <AnchorLink offset={50} href='#contact'></AnchorLink>
-            connect with me
-            </div>
+            <div className="hero-connect"> <AnchorLink className='anchorLink' offset={50} href='#contact'>connect with me</AnchorLink></div>
             <div className="myresume">My resume</div>
         </div>
     </div>
