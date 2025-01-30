@@ -33,10 +33,10 @@ function Service() {
                 return <div key={service.s_no}className='service-format'>
                         <h1 >{index+1}</h1>
                         <h2>{service.s_name}</h2>
-                        <p className={service.open?"open":"close"} >{service.s_desc}</p>
+                        <p className={service.open?"close":"open"} >{service.s_desc}</p>
                     <div>
                         
-                        <button onClick={(event)=>update(event,index)}>{service.open ?"read less":"read less"}</button>
+                        <button onClick={(event)=>update(event,index)}>{service.open ?"read less":"read more"}</button>
                     </div>
                         
                         
