@@ -63,20 +63,20 @@
     text-decoration: none;
     color: white;
 }
-@media(max-width:768px){
+@media(max-width:600px){
     .Home img{
         margin-top: 80px;
-        width: 260px;
+        width: 250px;
     }
     .Home h1{
         margin-top: 50px;
-        width: 90%;
-        font-size: 40px;
+        width: 80%;
+        font-size: 35px;
     }
     .Home p{
         width: 60%;
         line-height: 32px;
-        font-weight: 18px;
+        font-weight: 16px;
         margin: 10px 0px;
     }
     .hero-action{
@@ -88,10 +88,13 @@
     .hero-connect{
         padding: 20px 30px;
         border-radius: 40px;
+        font-size: 15px;
+    
     }
     .myresume{
         padding: 20px 30px;
         border-radius: 40px;
+        font-size: 15px;
 
     }
 }
